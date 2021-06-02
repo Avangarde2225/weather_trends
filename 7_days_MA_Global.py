@@ -35,8 +35,8 @@ df_global.set_index('year')['7-year MA Globe'].plot(ax=ax,
                                                     color='b',
                                                     label="Global 7 Year Moving Average")
 
-# plt.xlabel('Year')
-# plt.ylabel('Temperature(C)')
+plt.xlabel('Year')
+plt.ylabel('Temperature(C)')
 plt.xticks(df.year[::15])
 # plt.xticks(df1.year[::15])
 
