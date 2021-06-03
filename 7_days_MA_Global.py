@@ -18,8 +18,8 @@ df_global['7-year MA Globe'] = df_global.avg_temp.rolling(window=7).mean()
 
 #print(df.head(15))
 
-df.set_index('year')['7-year MA'].plot()
-df_global.set_index('year')['7-year MA Globe'].plot()
+# df.set_index('year')['7-year MA'].plot()
+# df_global.set_index('year')['7-year MA Globe'].plot()
 
 #plt.figure(figsize=(12, 8))
 fig, ax = plt.subplots(figsize=(14, 8))
